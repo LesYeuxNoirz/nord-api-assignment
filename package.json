@@ -4,8 +4,7 @@
   "description": "API testing assignment for Nord Security",
   "scripts": {
     "build": "tsc",
-    "test": "mocha dist/users.js",
-    "dbg": "npm run build && npm run test"
+    "test": "mocha dist/users.js"
   },
   "keywords": [],
   "author": "Mykola Iskorostenskyi",
@@ -14,12 +13,15 @@
     "chai": "^4.4.1",
     "email-validator": "^2.0.4",
     "mocha": "^10.3.0",
-    "supertest": "^6.3.4"
+    "supertest": "^6.3.4",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "@types/chai": "^4.3.12",
     "@types/mocha": "^10.0.6",
+    "@types/npm": "^7.19.3",
     "@types/supertest": "^6.0.2",
+    "@types/xml2js": "^0.4.14",
     "prettier": "^3.2.5",
     "typescript": "^5.4.2"
   }
