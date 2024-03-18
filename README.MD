@@ -29,5 +29,3 @@ _Note_: the CI workflow is triggered only for non-master branches
 them in the same manner
 - Plain SQL and script injections are ignored so there're no tests for them
 - Please read comments, I comment on solutions and some bugs found there
-
-change to trigger tests
