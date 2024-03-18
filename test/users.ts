@@ -5,9 +5,6 @@ import { validate } from 'email-validator';
 import { Parser } from 'xml2js';
 import { randomUUID } from 'crypto';
 
-process.env.GO_REST_ACCESS_TOKEN =
-  'd7c60efb5994ac6f6160116c0ebed2446804f2e5cff5e671b4bd5481dd125cd9';
-
 describe('Users', function () {
   // We use the function() syntax to get access to the proper this and increase the timeout as the API is not that fast)
   this.timeout(3000);
