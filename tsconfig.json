@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "test",
+    "target": "ESNext",
+    "module": "NodeNext",
+    "outDir": "dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": true
+  },
+  "include": ["test/**/*.ts"]
+}

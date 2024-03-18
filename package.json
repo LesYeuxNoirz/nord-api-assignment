@@ -1,0 +1,26 @@
+{
+  "name": "nord-api-assignment",
+  "version": "1.0.0",
+  "description": "API testing assignment for Nord Security",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha dist/users.js",
+    "dbg": "npm run build && npm run test"
+  },
+  "keywords": [],
+  "author": "Mykola Iskorostenskyi",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.4.1",
+    "email-validator": "^2.0.4",
+    "mocha": "^10.3.0",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.12",
+    "@types/mocha": "^10.0.6",
+    "@types/supertest": "^6.0.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  }
+}
